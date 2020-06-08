@@ -52,14 +52,13 @@ body {
 */
 .login {
     display: block;
-
 }
 
 .login form {
     width: 100%;
     background-color: #e4e4e4;
-    padding: 15px;
-    border-radius: 15px 0;
+    padding: 16px;
+    border-radius: 16px 0;
     box-shadow: #707070 0px 0px 8px -3px;
 }
 
@@ -88,7 +87,7 @@ body {
 
 .login .form-button:hover {
     background-color: #01a333;
-    transition: linear 0.2s;
+    transition: ease-in 0.3s;
 }
 
 .login .form-button:disabled {
@@ -109,9 +108,9 @@ ul.users-container {
 
 ul.users-container li.user-item {
     background-color: #fff;
-    padding: 5px;
+    padding: 6px;
     margin: 0 12px 12px 0;
-    border-radius: 5px;
+    border-radius: 6px;
     flex-grow: 1;
     display: inline-flex;
     align-items: center;
